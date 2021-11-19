@@ -1,0 +1,10 @@
+C:\Programas\CircodeApp\bin\Debug\CircodeApp.exe.config
+C:\Programas\CircodeApp\bin\Debug\CircodeApp.exe
+C:\Programas\CircodeApp\bin\Debug\CircodeApp.pdb
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.csprojAssemblyReference.cache
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.FrmPrincipal.resources
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.Properties.Resources.resources
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.csproj.GenerateResource.cache
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.exe
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.pdb
+C:\Programas\CircodeApp\obj\Debug\CircodeApp.FrmBuscaCEP.resources
