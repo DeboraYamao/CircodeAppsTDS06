@@ -40,13 +40,15 @@
             // 
             // btnJogar
             // 
+            this.btnJogar.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.btnJogar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJogar.Location = new System.Drawing.Point(248, 24);
+            this.btnJogar.ForeColor = System.Drawing.Color.White;
+            this.btnJogar.Location = new System.Drawing.Point(246, 29);
             this.btnJogar.Name = "btnJogar";
-            this.btnJogar.Size = new System.Drawing.Size(75, 32);
+            this.btnJogar.Size = new System.Drawing.Size(77, 27);
             this.btnJogar.TabIndex = 0;
             this.btnJogar.Text = "Jogar";
-            this.btnJogar.UseVisualStyleBackColor = true;
+            this.btnJogar.UseVisualStyleBackColor = false;
             this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
             // 
             // lblOpcao
@@ -74,13 +76,15 @@
             // 
             // btnSair
             // 
+            this.btnSair.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(353, 24);
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Location = new System.Drawing.Point(351, 29);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(75, 32);
+            this.btnSair.Size = new System.Drawing.Size(77, 27);
             this.btnSair.TabIndex = 0;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // pbxJogo
@@ -107,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(447, 295);
             this.Controls.Add(this.pbxJogo);
             this.Controls.Add(this.pbxOpcao);

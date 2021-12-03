@@ -46,13 +46,15 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(265, 26);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(77, 27);
             this.btnBuscar.TabIndex = 0;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // lblNovoCEP
@@ -74,13 +76,15 @@
             // 
             // btnSair
             // 
+            this.btnSair.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.Color.White;
             this.btnSair.Location = new System.Drawing.Point(357, 26);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(75, 23);
+            this.btnSair.Size = new System.Drawing.Size(77, 27);
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblNovoEndereço
@@ -174,10 +178,11 @@
             this.lblNovaUF.TabIndex = 12;
             this.lblNovaUF.Text = "UF";
             // 
-            // FrnBuscaCEP
+            // FrmBuscaCEP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(472, 257);
             this.Controls.Add(this.lblUF);
             this.Controls.Add(this.lblNovaUF);
@@ -195,7 +200,7 @@
             this.Controls.Add(this.btnBuscar);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrnBuscaCEP";
+            this.Name = "FrmBuscaCEP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BuscaCEP";
             this.ResumeLayout(false);

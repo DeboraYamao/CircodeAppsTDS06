@@ -33,5 +33,17 @@ namespace CircodeApp
             FrmJogo jogo = new FrmJogo();
             jogo.Show();
         }
+
+        private void pbxIMC_Click(object sender, EventArgs e)
+        {
+            FrmIMC imc = new FrmIMC();
+            imc.Show();
+        }
+
+        private void pbxGasolina_Click(object sender, EventArgs e)
+        {
+            FrmCarro carro = new FrmCarro();
+            carro.Show();
+        }
     }
 }

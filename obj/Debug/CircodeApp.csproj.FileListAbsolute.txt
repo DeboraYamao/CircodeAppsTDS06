@@ -29,3 +29,6 @@ C:\Users\Aluno\Desktop\CircodeAppsTDS06\obj\Debug\CircodeApp.Properties.Resource
 C:\Users\Aluno\Desktop\CircodeAppsTDS06\obj\Debug\CircodeApp.csproj.GenerateResource.cache
 C:\Users\Aluno\Desktop\CircodeAppsTDS06\obj\Debug\CircodeApp.exe
 C:\Users\Aluno\Desktop\CircodeAppsTDS06\obj\Debug\CircodeApp.pdb
+C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmJogo.resources
+C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmIMC.resources
+C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmCarro.resources
