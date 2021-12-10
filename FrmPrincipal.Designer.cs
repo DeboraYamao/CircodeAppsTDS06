@@ -39,10 +39,13 @@ namespace CircodeApp
             this.pbxCEP = new System.Windows.Forms.PictureBox();
             this.pbxGasolina = new System.Windows.Forms.PictureBox();
             this.lblConsumo = new System.Windows.Forms.Label();
+            this.pbxTemperatura = new System.Windows.Forms.PictureBox();
+            this.lblTemperatura = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxIMC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPedraPapelTesoura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCEP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGasolina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTemperatura)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBuscaCEP
@@ -61,7 +64,7 @@ namespace CircodeApp
             this.btnSair.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSair.Location = new System.Drawing.Point(599, 337);
+            this.btnSair.Location = new System.Drawing.Point(479, 12);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(77, 27);
             this.btnSair.TabIndex = 2;
@@ -83,7 +86,7 @@ namespace CircodeApp
             // 
             this.lblimc.AutoSize = true;
             this.lblimc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblimc.Location = new System.Drawing.Point(406, 162);
+            this.lblimc.Location = new System.Drawing.Point(27, 342);
             this.lblimc.Name = "lblimc";
             this.lblimc.Size = new System.Drawing.Size(144, 16);
             this.lblimc.TabIndex = 0;
@@ -92,7 +95,7 @@ namespace CircodeApp
             // pbxIMC
             // 
             this.pbxIMC.Image = global::CircodeApp.Properties.Resources.imc;
-            this.pbxIMC.Location = new System.Drawing.Point(402, 12);
+            this.pbxIMC.Location = new System.Drawing.Point(24, 193);
             this.pbxIMC.Name = "pbxIMC";
             this.pbxIMC.Size = new System.Drawing.Size(151, 147);
             this.pbxIMC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -125,7 +128,7 @@ namespace CircodeApp
             // pbxGasolina
             // 
             this.pbxGasolina.Image = global::CircodeApp.Properties.Resources.gas;
-            this.pbxGasolina.Location = new System.Drawing.Point(24, 193);
+            this.pbxGasolina.Location = new System.Drawing.Point(214, 193);
             this.pbxGasolina.Name = "pbxGasolina";
             this.pbxGasolina.Size = new System.Drawing.Size(151, 147);
             this.pbxGasolina.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,18 +140,41 @@ namespace CircodeApp
             // 
             this.lblConsumo.AutoSize = true;
             this.lblConsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsumo.Location = new System.Drawing.Point(58, 343);
+            this.lblConsumo.Location = new System.Drawing.Point(197, 343);
             this.lblConsumo.Name = "lblConsumo";
             this.lblConsumo.Size = new System.Drawing.Size(182, 16);
             this.lblConsumo.TabIndex = 4;
             this.lblConsumo.Text = "Calculadora de Consumo";
+            // 
+            // pbxTemperatura
+            // 
+            this.pbxTemperatura.Image = global::CircodeApp.Properties.Resources.temperatura;
+            this.pbxTemperatura.Location = new System.Drawing.Point(405, 193);
+            this.pbxTemperatura.Name = "pbxTemperatura";
+            this.pbxTemperatura.Size = new System.Drawing.Size(151, 147);
+            this.pbxTemperatura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxTemperatura.TabIndex = 7;
+            this.pbxTemperatura.TabStop = false;
+            this.pbxTemperatura.Click += new System.EventHandler(this.pbxTemperatura_Click);
+            // 
+            // lblTemperatura
+            // 
+            this.lblTemperatura.AutoSize = true;
+            this.lblTemperatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemperatura.Location = new System.Drawing.Point(388, 343);
+            this.lblTemperatura.Name = "lblTemperatura";
+            this.lblTemperatura.Size = new System.Drawing.Size(194, 16);
+            this.lblTemperatura.TabIndex = 6;
+            this.lblTemperatura.Text = "Conversor de Temperatura";
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(688, 376);
+            this.ClientSize = new System.Drawing.Size(611, 376);
+            this.Controls.Add(this.pbxTemperatura);
+            this.Controls.Add(this.lblTemperatura);
             this.Controls.Add(this.pbxGasolina);
             this.Controls.Add(this.lblConsumo);
             this.Controls.Add(this.pbxIMC);
@@ -167,6 +193,7 @@ namespace CircodeApp
             ((System.ComponentModel.ISupportInitialize)(this.pbxPedraPapelTesoura)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCEP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGasolina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTemperatura)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,6 +215,8 @@ namespace CircodeApp
         private System.Windows.Forms.PictureBox pbxIMC;
         private System.Windows.Forms.PictureBox pbxGasolina;
         private System.Windows.Forms.Label lblConsumo;
+        private System.Windows.Forms.PictureBox pbxTemperatura;
+        private System.Windows.Forms.Label lblTemperatura;
     }
 }
 

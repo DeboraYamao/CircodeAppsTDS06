@@ -32,3 +32,8 @@ C:\Users\Aluno\Desktop\CircodeAppsTDS06\obj\Debug\CircodeApp.pdb
 C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmJogo.resources
 C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmIMC.resources
 C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmCarro.resources
+C:\CircodeAppsTDS06\obj\Debug\CircodeApp.FrmTemperatura.resources
+C:\CircodeAppsTDS06\bin\Debug\CircodeApp.exe.manifest
+C:\CircodeAppsTDS06\bin\Debug\CircodeApp.application
+C:\CircodeAppsTDS06\obj\Debug\CircodeApp.exe.manifest
+C:\CircodeAppsTDS06\obj\Debug\CircodeApp.application

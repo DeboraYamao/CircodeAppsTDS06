@@ -45,5 +45,11 @@ namespace CircodeApp
             FrmCarro carro = new FrmCarro();
             carro.Show();
         }
+
+        private void pbxTemperatura_Click(object sender, EventArgs e)
+        {
+            FrmTemperatura temp = new FrmTemperatura();
+            temp.Show();
+        }
     }
 }

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CircodeApp.exe" version="1.0.0.2" publicKeyToken="4d81c3a2e2cc2c28" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CircodeApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CircodeApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CircodeApp.exe" size="186840">
+      <assemblyIdentity name="CircodeApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>khH4nVV/PH83VGSzMFvmepwPGEY786pN6RCE7Gc2eUc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CircodeApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SNCTM202LABF13\Aluno" issuerKeyHash="156b01d45879d29168649ab3828adb8922d65c39" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mMa//nVczk1OhSaSbY373AUZNmXeQk+pAjubCH/Fj4A=</DigestValue></Reference></SignedInfo><SignatureValue>OQxS+U8vpTJ282bQoGbfAsw0zMOxd0ySGulJ1ebp5KQ5DR8tAHGeTOIrGRegwZ7mcgLrdyQs+EjeGon/0cMDY7lfzzUWlab7CTozoM/fbY5HC0pxfGGSG6pKtrt0gK7XhKXAdsQHJy3XZ2g5kcjIbARuVwEQPxd4v2kyPphU2Fs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rFBooPjsZ7Zj5HTHykFj+lQLXpM0tD6/BOLAHzYolLLNnRnc3HTPFRkEwO3n2ye+Zq445jUCftyM4fHHFKDyBvz1IKdEHk2iAdP0NV2w6sGK12KQXMhUdDYlIKy3Rn3tjVCmU4R8vZF7iQyw3m0bVi7sRUc3W0GVWb+IRpGFnk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="808fc57f089b3b02a94f42de65361905dcfb8d6d9226854e4dce5c75febfc698" Description="" Url=""><as:assemblyIdentity name="CircodeApp.exe" version="1.0.0.2" publicKeyToken="4d81c3a2e2cc2c28" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SNCTM202LABF13\Aluno</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IOlQXBP387NEDZBc+vc8Vdt0egn8/W6GoYDq5IKSk9g=</DigestValue></Reference></SignedInfo><SignatureValue>V2DczRaPhDPZiiPqI4TheKbzVka96XbPQYku+vDNtwQoA/XhEpyN3TvilHBG4zpcNXmxEDNTEtd8SVf5FmFdqiNBP5SDH7tzLqKBDWaQx4KD7SSiMSKymc8LuCN/8lSSgLqY+Xhp3nC+IA53jV6hNMtlV3oWRG8XPPbS7QX/334=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rFBooPjsZ7Zj5HTHykFj+lQLXpM0tD6/BOLAHzYolLLNnRnc3HTPFRkEwO3n2ye+Zq445jUCftyM4fHHFKDyBvz1IKdEHk2iAdP0NV2w6sGK12KQXMhUdDYlIKy3Rn3tjVCmU4R8vZF7iQyw3m0bVi7sRUc3W0GVWb+IRpGFnk0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQXvFo+F4jQaZLrzzF6nrKyzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUwBOAEMAVABNADIAMAAyAEwAQQBCAEYAMQAzAFwAQQBsAHUAbgBvMB4XDTIxMTIxMDAwNDQ0MloXDTIyMTIxMDA2NDQ0MlowMzExMC8GA1UEAx4oAFMATgBDAFQATQAyADAAMgBMAEEAQgBGADEAMwBcAEEAbAB1AG4AbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArFBooPjsZ7Zj5HTHykFj+lQLXpM0tD6/BOLAHzYolLLNnRnc3HTPFRkEwO3n2ye+Zq445jUCftyM4fHHFKDyBvz1IKdEHk2iAdP0NV2w6sGK12KQXMhUdDYlIKy3Rn3tjVCmU4R8vZF7iQyw3m0bVi7sRUc3W0GVWb+IRpGFnk0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAs/Sfbf8hZ8Usz6jLBjfvhF5FH+3eVDiAD98tWsvWwuJ1L1tdD90IOZ14sjsMDxblb/FE0YgwW4zejcgbe3eRvVWUoIgpBcTTZ0FoLMNKqSiGqpd1EmlTpqdXRqH6GAHTeBIGBm1yJuqwhceLQ5BgAfucQUk/MRbWgOD45EeXckg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
