@@ -140,7 +140,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmTemperatura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmTemperatura";
+            this.Text = "Conversor de Temperatura";
             this.Load += new System.EventHandler(this.FrmTemperatura_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
